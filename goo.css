@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #121212;
+}
+
+.left-icons,
+.right-icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 20px;
+  font-size: 20px;
+  color: #ccc;
+  cursor: pointer;
+}
+.sanwk-logo1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Product Sans', sans-serif;
+}
+
+.profile {
+  width: 32px;
+  height: 32px;
+  background-color: #9c1010;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.menu-icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.c {
+  margin-top: 5%;
+  
+}
+
+.sanwk-logo {
+  font-size: 80px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.s {
+  color: #4285F4;
+}
+
+.a {
+  color: #EA4335;
+}
+
+.n {
+  color: #FBBC05;
+}
+
+.w {
+  color: #34A853;
+}
+
+.k {
+  color: #FBBC05;
+}
+
+.search-box {
+  width: 50%;
+  max-width: 600px;
+  height: 40px;
+  padding: 0 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 24px;
+  font-size: 16px;
+  outline: none;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+.icon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.icon-item {
+  width: 80px;
+  text-align: center;
+}
+
+.icon-item img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px 0;
+  background-color: #645a5a;
+}
